@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    height: 100vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.main1{
+   
+    height: 100vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.main-box{
+    border: 2px solid rgb(168, 232, 245);
+    border-radius: 20px;
+    border-right: 2px solid rgb(219, 243, 6) ;
+    border-left: 2px solid rgb(168, 232, 245) ;
+    border-top: 2px solid rgb(168, 232, 245) ;
+    border-bottom: 2px solid rgb(219, 243, 6) ;
+    box-shadow: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+     gap: 30px; 
+    /* border: 2px solid red;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     padding: 80px;
+     gap: 30px; */
+}
+.main-box :nth-child(2){
+    padding: 10px;
+}
+.main-box button{
+    border: 2px dashed  rgb(243, 6, 215) ;
+    border-radius: 10px;
+}
+.but{
+    padding: 10px;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(146, 135, 124);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+   gap: 30px;
+   
+}
+
+.main-div{
+    height: 96vh;
+    width: 100vw;
+    background-color: rgb(169, 162, 153);
+}
+.main-div img{
+    
+    border-radius: 30px;
+    height: 150px;
+    transform: translateX(600px);
+    margin-top: 40px;
+}
+#content{
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* meter converter start */
+
+.main2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(195, 238, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.main-box1{
+    border-radius: 20px;
+    border-right: 4px solid rgb(248, 96, 7) ;
+    border-left: 4px solid rgb(247, 1, 193) ;
+    border-top: 4px solid rgb(247, 1, 193) ;
+    border-bottom: 4px solid rgb(248, 96, 7) ;
+    box-shadow: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+     gap: 30px; 
+}
+
+
+.main3{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(42, 215, 250, 0.239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.main-box2{
+    border-right: 4px solid rgb(23, 196, 244);
+    border-left: 4px solid indianred;
+    border-top: 4px solid indianred;
+    border-bottom: 4px solid rgb(23, 196, 244);
+    box-shadow: 10px 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    gap: 30px;
+}
